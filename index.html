@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="p5.min.js"></script>
+    
+    <script src="Board.js"></script>
+    <script src="Player.js"></script>
+    <script src="RandomPlayer.js"></script>
+    <script src="D1Player.js"></script>
+    <script src="D2Player.js"></script>
+
+
+    <script src="main.js"></script>
+
+    <input type="radio" name="mode" id="Sim">
+    <label for="Sim">Simulate Rounds</label>
+    <input type="radio" name="mode" id="Manual">
+    <label for="Manual">Manual (click)</label>
+
+    <br>
+
+    <label for="p1">Select X bot</label>
+    <select name="p1" id="p1"></select>
+    <br>
+    <label for="p2">Select O bot</label>
+    <select name="p2" id="p2"></select>
+
+    <br><br>
+
+    <p id="wins"></p>
+  </body>
+</html>
