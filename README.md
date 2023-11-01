@@ -3,6 +3,7 @@
 A small project with a variety of bots to experiment with.
 
 Made using p5.js and vite, all other code is original.
+None of the NPM dependencies are required to run the program. It's also available as one standalone html file in the releases.
 
 ### Bots
 
